@@ -5,7 +5,7 @@
 	<title>PMAY | HOME</title>
 
 	<link rel="stylesheet" type="text/css" href="g_pmay_main.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/w3.css"> -->
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 
 	<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
@@ -21,44 +21,61 @@
 			<img style="width: 100%;" alt="" src="Images/header.jpg">
 		</div>
 		<!-----------------------------------Menu--------------------------------------------->
-		<div class="container">
-			<ul class="dd-menu">
-				<li><a href="g_index.html" style="background:#58BF3A;">मुख्यपृष्ठ</a></li>
-				<li><a href="g_faq.html">माहिती अधिकार</a></li>
-				<li><a href="s_complaint.html">तक्रार</a> </li>
-				<li><a href="#">मदत &#9660</a>
-					<ul>
-						<li><a href="#">मार्गदर्शिका</a></li>
-					</ul>
-				</li>
-				<li><a href="g_gallery.html">फोटो विभाग</a></li>
-				<li><a href="#">भागधारक &#9660</a>
-					<ul>
-						<li><a href="#">राज्ये</a></li>
-						<li><a href="#">केंद्रे</a></li>
-					</ul>
-				</li>
-				<li><a href="g_contact_us.html">संपर्क</a></li>
+		<!-- Nav tabs -->
+		<ul class="nav nav-pills" id="main_nav">
+			<li class="nav-item">
+				<a href="#tab1Id" class="nav-link active">मुख्यपृष्ठ</a>
+			</li>
+			<li class="nav-item">
+				<a href="#tab1Id" class="nav-link">माहिती अधिकार</a>
+			</li>
+			<li class="nav-item">
+				<a href="#tab1Id" class="nav-link">तक्रार</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+					aria-expanded="false">मदत</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#tab2Id">मार्गदर्शिका</a>
+					<a class="dropdown-item" href="#tab3Id">Another action</a>
+					<!-- <div class="dropdown-divider"></div> -->
+				</div>
+			</li>
+			<li class="nav-item">
+				<a href="#tab5Id" class="nav-link">फोटो विभाग</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+					aria-expanded="false">भागधारक</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#tab2Id">राज्ये</a>
+					<a class="dropdown-item" href="#tab3Id">केंद्रे</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">संपर्क</a>
+			</li>
+		</ul>
 
-			</ul>
-		</div>
 
 		<div class="container">
 			<div class="row">
 				<!------------------------------------Side-Menu----------------------------------------->
 				<div class="col-md-3">
 					<ul class="side_menu">
-						<li style="margin-top:5px"><a href="#">अस्वीकरण</a></li>
-						<li style="margin-top:5px"><a href="#">सीएलएस टोल फ्री हेल्पलाईन</a></li>
-						<li style="margin-top:5px"><a href="#">पीएमएई एमआयएस युजरमॅन्युअल </a></li>
-						<li style="margin-top:5px"><a href="#">पीएमएई एमआयएस प्रस्तुति</a></li>
-						<li style="margin-top:5px"><a href="#">पीएमएई एमआयएस वर्क फ्लो</a></li>
+						<li><a href="#">अस्वीकरण</a></li>
+						<li><a href="#">सीएलएस टोल फ्री हेल्पलाईन</a></li>
+						<!-- <li><a href="#">पीएमएई एमआयएस युजरमॅन्युअल </a></li> -->
+						<li><a href="#">पीएमएई एमआयएस माहिती-पुस्तिका
+							</a></li>
+						<li><a href="#">पीएमएई एमआयएस प्रस्तुति</a></li>
+						<li><a href="#">पीएमएई एमआयएस वर्क फ्लो</a></li>
 					</ul>
 				</div>
 				<!------------------------------------Main content------------------------------------------>
-				<div class="col-md-7">
+				<div class="col-md-7 pmay_h_main">
 
-					<h1>प्रधान मंत्री आवास योजना </h1>
+					<div class="pmay_heading">प्रधान मंत्री आवास योजना</div>
 					<div class="pmay_log_opt_1">
 						<a class="pmay_log_opt" href="g_login.html">
 							<span> शहरी स्थानिक संस्था </span>
@@ -77,26 +94,44 @@
 				<!--------------------------------------Eof main content---------------------------->
 
 				<!--------------------------------------right-side-menu--------------------------------------->
-				<div class="col-md-2">
-					<b class="" style="text-align:center; color:rgb(101, 93, 207); font-size:14px ;">Notifications:</b>
-					<marquee direction="up"
-						style="margin-top:10; height:300px; color:rgb(0, 0, 0); font-weight: bold; margin-left:10px;">
-						notification1<br>
-						hellow world<br>
-						welcome to PMAY<br>
-						this is simple animation<br>
-						of up direction<br>
-					</marquee>
+				<div class="col-md-2 d-none">
 				</div>
 
 			</div>
 
 		</div>
+
+		<div class="container feed_section">
+			<div class="row">
+			<div class="col-md-4">
+				<div class="" style="text-align:center; color:rgb(101, 93, 207); font-size:14px ;">Notifications:</div>
+				<marquee direction="up"
+					style="margin-top:10; height:300px; color:rgb(0, 0, 0); font-weight: bold; margin-left:10px;">
+					notification1<br>
+					hellow world<br>
+					welcome to PMAY<br>
+					this is simple animation<br>
+					of up direction<br>
+				</marquee>
+			</div>
+			<div class="col-md-4">Fb</div>
+			<div class="col-md-4">Twitter</div>
+		</div>
+		</div>
+
 	</div>
 
 	<script src="/js/jquery-3.5.0.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<!-- <script src="/js/popper.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script> -->
 	<script src="/js/src.js"></script>
+
+	<script>
+		$('#navId a').click(e => {
+			e.preventDefault();
+			$(this).tab('show');
+		});
+	</script>
 </body>
 
 </html>

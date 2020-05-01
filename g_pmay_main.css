@@ -106,65 +106,6 @@ body{
 	font-family:Forte;
 }
 
-/*---------------------------------------side-menu----------------------*/
-.side_menu{
-	margin-left:0px;
-	height:300px; 
-	width:200px; 
-}
-.side_menu{
-	font-family:Script MT;
-	list-style:none;
-	margin-top:0px;
-	margin-left:0px;
-}
-.side_menu li{
-	background-color: #BBBBBF;
-    color: #1111FF;
-    margin-left: 0px;
-    height: auto;
-    font-size: 14px;
-    text-align: center;
-    vertical-align: center;
-	border-radius: 0px;
-	margin-top: 1px;
-}
-.side_menu li a{
-	 text-decoration:none;
-	 color:black;
-	 display:block;
-	 padding: 5px 0px;
-	 /* margin-top:15px; */
-	/* height:80px; */
-}
-.side_menu li a:hover{
-	font-style:bold;
-	background:#999999;
-	color:black;
-	font-family:Script MT;
-	border-radius:5px;
-	/* margin-top:15px; */
-	/*box-shadow: 10px 10px 5px grey;*/
-}
-.side_menu ul{
-	display:none;
-	position:relative;
-	list-style:none;
-	z-index:2;
-}
-.side_menu ul li{
-	background-color:khaki;
-	border:1px solid black;
-	z-index:1;
-	
-}
-.side_menu li:hover >ul {
-	margin-left:280px;
-	margin-top:-80px;
-	display:block;
-	z-index:1;
-}
-
 /*------------------EOF side menu-------------*/
 
 .links{
@@ -343,23 +284,6 @@ form input:focus { background-color: rgba(0,0,0,.4); }
 	animation:atop 1s;	
 }
 
-#dropdown{
-	width:70%;
-  border: 1px solid;
-  border-bottom-color: rgba(255,255,255,.5);
-  border-right-color: rgba(60,60,60,.35);
-  border-top-color: rgba(60,60,60,.35);
-  border-left-color: rgba(80,80,80,.45);
-  background-color: rgba(0,0,0,.2);
-  background-repeat: no-repeat;
-  padding: 8px 24px 8px 10px;
-  font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
-  letter-spacing: .075em;
-  color: #fff;
-  text-shadow: 0 1px 0 rgba(0,0,0,.1);
-  margin-bottom: 19px;
-  border-radius:6px;
-}
 
 .pmay_log_opt{
 	background-color:#ffa667;
