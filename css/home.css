@@ -4,6 +4,7 @@
     background-color: #BEDD72;
     margin-top: 5px;
     margin-bottom: 15px;
+    justify-content: center;
 }
 
 #main_nav.nav-pills .nav-link {
