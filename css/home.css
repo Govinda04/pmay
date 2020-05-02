@@ -1,14 +1,14 @@
 /*-------------------------Navbar---------------------*/
 
 #main_nav {
-    background-color: #BEDD72;
+    background-color: #bedd72;
     margin-top: 5px;
     margin-bottom: 15px;
     justify-content: center;
 }
 
 #main_nav.nav-pills .nav-link {
-    background-color: #BEDD72;
+    background-color: #bedd72;
     color: #000000;
     border-radius: 0;
 }
@@ -19,13 +19,10 @@
 
 #main_nav.nav-pills .nav-link.active,
 #main_nav.nav-pills .show>.nav-link {
-    background: #58BF3A;
+    background: #58bf3a;
     color: #000000;
     /* font-weight: bold; */
 }
-
-
-
 
 /*---------------------------------------side-menu----------------------*/
 .side_menu {
@@ -35,7 +32,7 @@
 }
 
 .side_menu li {
-    background-color: #BBBBBF;
+    background-color: #bbbbbf;
     margin-left: 0px;
     border-radius: 0px;
 }
@@ -83,7 +80,7 @@
     background-color: #f1f1f1;
     border: 1px solid #cccccc;
     border-radius: 5px;
-    padding: 30px;
+    padding: 30px 45px;
     padding-top: 15px;
 }
 
@@ -162,29 +159,86 @@
     height: 300px;
     color: #000000;
 }
-.feed_content_marquee > ul{
+
+.feed_content_marquee>ul {
     list-style-type: "\27A4";
     margin-left: 20px;
 }
-.feed_content_marquee li{
+
+.feed_content_marquee li {
     padding-left: 10px;
     margin: 5px 0px;
 }
 
+/* -------after login-------- */
+.pmay_alog_ul {
+    list-style: none;
+}
 
-footer{
+.pmay_alog_ul>li>a {
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 15px;
+    background-color: hsl(205, 100%, 50%);
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    border-bottom: 1px solid #f1f1f1;
+}
+
+/*  25 , 145 , 265  */
+/* 25, 205 */
+
+.pmay_alog_ul>li:last-child>a {
+    border-bottom: none;
+}
+
+.pmay_alog_ul>li>a:hover {
+    text-decoration: none;
+    background-color: hsl(205, 100%, 65%);
+}
+
+.pmay_intro {
+    padding: 25px 45px;
+}
+
+.pmay_heading_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    padding: 10px 15px;
+    margin: 15px 0px;
+    background-color: hsl(205, 100%, 35%);
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.pmay_main_content {
+    text-align: justify;
+    line-height: 1.75;
+}
+
+footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 30px;
+    margin-top: 15px;
+    background-color: hsl(25, 88%, 50%);
+    color: #ffffff;
+}
 
-    background-color: hsl(25, 88%, 50%);;
+footer a {
     color: #ffffff;
 }
-footer a{
-    color: #ffffff;
-}
-footer a:hover{
+
+footer a:hover {
     color: #000000;
     text-decoration: none;
 }
