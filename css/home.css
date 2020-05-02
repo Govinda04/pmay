@@ -24,6 +24,10 @@
     /* font-weight: bold; */
 }
 
+#main_nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 /*---------------------------------------side-menu----------------------*/
 
 .side_menu {
@@ -222,6 +226,15 @@
 .pmay_main_content {
     text-align: justify;
     line-height: 1.75;
+}
+
+/* -----contact us------- */
+.pmay_contact_div {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 30px 45px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 6px 5px #bbbbbb7a;
 }
 
 footer {
