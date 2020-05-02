@@ -24,6 +24,22 @@
     /* font-weight: bold; */
 }
 
+#main_nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.pmay_intro_section {
+    padding: 30px 0px;
+    margin: 10px 0px;
+    background-color: #f1f1f1;
+}
+
+.pmay_intro_section .pmay_h_hr {
+    width: 680px;
+    margin: 5px 0px;
+    border-bottom: 3px solid #ff8229;
+}
+
 /*---------------------------------------side-menu----------------------*/
 
 .side_menu {
@@ -115,7 +131,7 @@
 }
 
 .feed_section .feed_div {
-    height: 400px;
+    height: 440px;
     border: 1px solid #dcdcdc;
     box-shadow: 2px 2px 6px 2px #bbbbbb7a;
     border-top-left-radius: 15px;
@@ -162,7 +178,7 @@
 
 .feed_content_marquee>ul {
     list-style-type: "\27A4";
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .feed_content_marquee li {
@@ -185,7 +201,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 
     border-bottom: 1px solid #f1f1f1;
 }
@@ -222,6 +237,15 @@
 .pmay_main_content {
     text-align: justify;
     line-height: 1.75;
+}
+
+/* -----contact us------- */
+.pmay_contact_div {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 30px 45px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 6px 5px #bbbbbb7a;
 }
 
 footer {
