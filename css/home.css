@@ -273,16 +273,30 @@
     height: -webkit-fill-available;
 }
 
+.faq_section>h4,
+.guide_section>h4,
+.quiz_section>h4 {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.guide_section {
+    margin: 20px 0px;
+}
+
 /* -------footer------------- */
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 20px 30px;
     margin-top: 15px;
     background-color: hsl(25, 88%, 50%);
     color: #ffffff;
+}
+
+footer>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 footer a {
