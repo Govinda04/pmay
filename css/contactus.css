@@ -1,13 +1,14 @@
 /*-------------------------Navbar---------------------*/
 
 #main_nav {
-    background-color: #BEDD72;
+    background-color: #bedd72;
     margin-top: 5px;
     margin-bottom: 15px;
+    justify-content: center;
 }
 
 #main_nav.nav-pills .nav-link {
-    background-color: #BEDD72;
+    background-color: #bedd72;
     color: #000000;
     border-radius: 0;
 }
@@ -18,7 +19,7 @@
 
 #main_nav.nav-pills .nav-link.active,
 #main_nav.nav-pills .show>.nav-link {
-    background: #58BF3A;
+    background: #58bf3a;
     color: #000000;
     /* font-weight: bold; */
 }
