@@ -296,6 +296,34 @@
     margin: 20px 0px;
 }
 
+/* -------Quiz------------- */
+
+.pmay_quiz_div {
+    /* border: 1px solid #000000; */
+
+}
+
+.pmay_quiz_div .pmay_quiz_quest {
+    padding: 20px 15px
+}
+
+.pmay_quiz_div .pmay_quiz_quest:nth-child(odd) {
+    background-color: hsl(205, 70%, 90%);
+}
+
+.pmay_quiz_div .pmay_quiz_quest:nth-child(even) {
+    background-color: hsl(205, 81%, 83%);
+}
+
+.quiz_btn {
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* -------footer------------- */
 
 footer {
