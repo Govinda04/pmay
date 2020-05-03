@@ -14,15 +14,17 @@
 
     <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
     <!-----------------------Html file index for PMAY------------------------------>
-    <script>
+    <!-- <script>
         var name = getElementById('name');
         var pass = getElementById('pass');
 
-        if (name === 'Sabretooth@test.com' && pass === 'Delta')
-            window.href
-        else
+        if (name === 'Sabretooth@test.com' && pass === 'Delta') {
+            alert("Succes")
+            window.location.href = "/after_login.html";
+
+        } else
             return -1;
-    </script>
+    </script> -->
 </head>
 
 
@@ -63,16 +65,16 @@
 
 
     <div id="logreg-forms">
-        <form class="form-signin">
+        <form id="pmay_login_form" class="form-signin">
             <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign in</h1>
             <!-- <div class="social-login">
                 <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Sign in with Facebook</span> </button>
                 <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Sign in with Google+</span> </button>
             </div> -->
             <!-- <p style="text-align:center"> OR </p> -->
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required=""
-                autofocus="">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+            <input type="email" id="email" class="form-control" placeholder="Email address" value="abc@test.com"
+                required="" autofocus="">
+            <input type="password" id="password" class="form-control" placeholder="Password" value="1234" required="">
 
             <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
             <a href="#" id="forgot_pswd">Forgot password?</a>
@@ -121,7 +123,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
-    <script src="/js/login.js"></script>
+    <script src="js/src.js"></script>
 
 </body>
 

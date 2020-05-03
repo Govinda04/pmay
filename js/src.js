@@ -4,6 +4,18 @@ $(document).ready(function () {
     $(this).tab("show");
   });
 
+  $("#pmay_login_form").on("submit", function (e) {
+    e.preventDefault();
+    var name = $("#email").val();
+    var pass = $("#password").val();
+    // console.log(`12${name}+ ${pass}`);
+
+    if (name === "abc@test.com" && pass === "1234") {
+      // alert("Succes");
+      window.location.href = "after_login.html";
+    }
+  });
+
   $("#quiz_form").on("submit", function (e) {
     e.preventDefault();
     $(".pmay_quiz_result").hide();
