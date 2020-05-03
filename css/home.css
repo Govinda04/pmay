@@ -235,6 +235,9 @@
   color: #ffffff;
   font-size: 20px;
 }
+.pmay_heading_box > span {
+  margin-left: 13px;
+}
 
 .pmay_main_content {
   text-align: justify;
