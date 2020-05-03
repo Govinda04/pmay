@@ -295,6 +295,14 @@
   margin-left: 15px;
   margin-bottom: 20px;
 }
+.faq_section a:hover {
+  text-decoration: none;
+}
+.pmay_faq_sec i {
+  font-size: 18px;
+  color: #ec0000;
+  margin-right: 6px;
+}
 
 .guide_section {
   margin: 20px 0px;
