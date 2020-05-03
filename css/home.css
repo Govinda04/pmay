@@ -375,6 +375,20 @@
 .ui-slider-handle {
   background-color: hsl(25, 98%, 80%) !important;
 }
+.pmay_slide_val {
+  margin: 15px 0px;
+}
+.pmay_slide_val input {
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #555555;
+}
 
 /* -------footer------------- */
 
