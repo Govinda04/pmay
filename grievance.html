@@ -8,8 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/css/complaint.css">
 
     <!-- <link rel="stylesheet" type="text/css" href="css/w3.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
 
@@ -33,30 +32,34 @@
         <!-- Nav tabs -->
         <ul class="nav nav-pills" id="main_nav">
             <li class="nav-item">
-                <a href="index.html" class="nav-link">मुख्यपृष्ठ</a>
+                <a href="index.html" class="nav-link active">मुख्यपृष्ठ</a>
             </li>
             <li class="nav-item">
-                <a href="g_faq.html" class="nav-link">माहिती अधिकार</a>
+                <a href="#tab1Id" class="nav-link">माहिती अधिकार</a>
             </li>
             <li class="nav-item">
-                <a href="grievance.html" class="nav-link active">तक्रार</a>
+                <a href="s_complaint.html" class="nav-link">तक्रार</a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="#">मदत</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">मदत</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#tab2Id">मार्गदर्शिका</a>
+                    <a class="dropdown-item" href="#tab3Id">Another action</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                </div>
             </li>
             <li class="nav-item">
-                <a href="gallary.html" class="nav-link">फोटो विभाग</a>
+                <a href="#tab5Id" class="nav-link">फोटो विभाग</a>
             </li>
-            <!-- <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-					aria-expanded="false">भागधारक</a>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="#tab2Id">राज्ये</a>
-					<a class="dropdown-item" href="#tab3Id">केंद्रे</a>
-				</div>
-			</li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">भागधारक</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#tab2Id">राज्ये</a>
+                    <a class="dropdown-item" href="#tab3Id">केंद्रे</a>
+                </div>
+            </li>
             <li class="nav-item">
-                <a href="contact.html" class="nav-link">संपर्क</a>
+                <a href="g_contact_us.html" class="nav-link">संपर्क</a>
             </li>
         </ul>
     </div>
@@ -87,91 +90,77 @@
                     </div>
                     <form>
                         <div class="form-row">
-
-                            <div class="col-md-12">
-                                name:
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">पहिले नाव</label>
+                                <input type="text" class="form-control form-control-sm" placeholder="पहिले नाव">
                             </div>
-                            <div class="col">
-                                <input type="text" class="form-control form-control-sm" placeholder="First name">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control form-control-sm" placeholder="Last name">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">आडनाव</label>
+                                <input type="text" class="form-control form-control-sm" placeholder="आडनाव">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control form-control-sm" id="inputEmail4"
-                                    placeholder="Your email">
+                                <label for="inputEmail4">ई - मेल</label>
+                                <input type="email" class="form-control form-control-sm" id="inputEmail4" placeholder="आपला ई - मेल">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputAddress">Address</label>
-                            <input type="text" class="form-control form-control-sm" id="inputAddress"
-                                placeholder="1234 Main St">
+                            <label for="inputAddress">पत्ता</label>
+                            <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="1234 मुख्य स्टँड">
                         </div>
                         <div class="form-group">
-                            <label for="inputAddress2">Address 2</label>
-                            <input type="text" class="form-control form-control-sm" id="inputAddress2"
-                                placeholder="Apartment, studio, or floor">
+                            <label for="inputAddress2">पत्ता 2</label>
+                            <input type="text" class="form-control form-control-sm" id="inputAddress2" placeholder="अपार्टमेंट, स्टुडिओ किंवा मजला">
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputCity">City</label>
-                                <input type="text" class="form-control form-control-sm" id="inputCity">
+                                <label for="inputCity">शहर</label>
+                                <input type="text" class="form-control form-control-sm" id="inputCity" placeholder="शहराचे नाव ">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputState">State</label>
+                                <label for="inputState">राज्य</label>
                                 <select id="inputState" class="form-control form-control-sm">
                                     <option selected>Choose...</option>
                                     <option>...</option>
                                 </select>
                             </div>
                             <div class="form-group col-md-2">
-                                <label for="inputZip">Zip</label>
+                                <label for="inputZip">पिनकोड</label>
                                 <input type="text" class="form-control form-control-sm" id="inputZip">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-8">
                                 <select id="inputState" class="form-control form-control-sm">
-                                    <option label="Aadhaar Related Issues" value="Aadhaar Related Issues">Aadhaar
-                                        Related
-                                        Issues
+                                    <option label="Aadhaar Related Issues" value="Aadhaar Related Issues">आधार संबंधित समस्या
                                     </option>
                                     <option label="Aaple Sarkar Kendra Related Issues"
                                         value="Aaple Sarkar Kendra Related Issues">
-                                        Aaple Sarkar Kendra Related Issues</option>
+                                        आपले सरकार केंद्राशी संबंधित मुद्दे</option>
                                     <option label="Portal Access / Performance Issues"
                                         value="Portal Access / Performance Issues">
-                                        Portal Access / Performance Issues</option>
-                                    <option label="User Registration" value="User Registration">User Registration
-                                    </option>
-                                    <option label="Scheme Related Issue" value="Scheme Related Issue">Scheme Related
-                                        Issue
-                                    </option>
+                                        पोर्टल प्रवेश / कामगिरीचे मुद्दे</option>
+                                    <option label="User Registration" value="User Registration">वापरकर्ता नोंदणी</option>
+                                    <option label="Scheme Related Issue" value="Scheme Related Issue">योजना संबंधित समस्या</option>
                                     <option label="Application Registration/ Submission Process"
-                                        value="Application Registration/ Submission Process">Application Registration/
-                                        Submission
-                                        Process</option>
+                                        value="Application Registration/ Submission Process">अर्ज नोंदणी / सबमिशन प्रक्रिया</option>
                                     <option label="Scholarship Amount Not Received"
                                         value="Scholarship Amount Not Received">
-                                        Scholarship Amount Not Received</option>>
+                                        शिष्यवृत्तीची रक्कम मिळाली नाही</option>>
                                 </select>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="form_message">Message *</label>
-                                    <textarea id="form_message" name="message" class="form-control form-control-sm"
-                                        placeholder="" rows="4" required="required"
-                                        data-error="Please, leave us a message."></textarea>
+                                    <label for="form_message">संदेश</label>
+                                    <textarea id="form_message" name="message" class="form-control form-control-sm" placeholder="माझ्यासाठी संदेश" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                         </div>
-                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        <input type="submit" class="btn btn-success btn-send" value="संदेश पाठवा">
                     </form>
                 </div>
             </div>
@@ -198,11 +187,9 @@
     <!--------------------------------------Eof main content---------------------------->
 
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
-        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script src="/js/src.js"></script>
     <!-- </div> -->
 </body>
