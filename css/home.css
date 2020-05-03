@@ -46,6 +46,7 @@
     list-style: none;
     margin-top: 0px;
     margin-left: 0px;
+    padding-left: 0;
 }
 
 .side_menu li {
@@ -239,6 +240,16 @@
     line-height: 1.75;
 }
 
+.pmay_main_content h5 {
+    margin-top: 20px;
+}
+
+.quiz_btn {
+    margin: 25px 0px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
 /* -----contact us------- */
 .pmay_contact_div {
     background-color: #f1f1f1;
@@ -271,6 +282,7 @@
 .grid-item>img {
     width: 100%;
     height: -webkit-fill-available;
+    object-fit: cover;
 }
 
 .faq_section>h4,
