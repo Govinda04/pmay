@@ -373,6 +373,14 @@
 
 /* -------Subsidy calculator------------- */
 
+.pmay_sub_calc_div label {
+  font-size: 20px;
+  /* margin-left: 10px; */
+  margin-right: 15px;
+}
+.pmay_sub_calc_div label > input {
+  margin-right: 5px;
+}
 .ui-slider-range {
   background: hsl(25, 88%, 50%) !important;
 }
@@ -392,6 +400,47 @@
   font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
+}
+.pmay_sub_result_div {
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  background-color: #efeeee;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.12);
+}
+.pmay_sub_result > ul {
+  list-style: none;
+}
+.pmay_sub_result .amount-section {
+  border: 1px solid rgba(228, 228, 228, 0.18);
+  border-radius: 12px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px auto 0px;
+  width: 300px;
+  background-color: #efeeee;
+  /* box-shadow: 20px 20px 50px #00d2c6, -30px -30px 60px #00ffff; */
+  box-shadow: 6px 6px 16px 0 rgba(217, 210, 200, 0.51),
+    -6px -6px 26px 0 rgba(255, 255, 255, 0.83);
+}
+
+.pmay_sub_result .tag-line {
+  font-size: 13px;
+  text-align: center;
+  color: #bcbcbc;
+}
+.pmay_sub_result .green_txt {
+  color: green;
+}
+
+.pmay_sub_result h4 {
+  margin-top: 20px;
 }
 
 /* -------footer------------- */
