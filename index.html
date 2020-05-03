@@ -31,13 +31,13 @@
 				<a href="index.html" class="nav-link active">मुख्यपृष्ठ</a>
 			</li>
 			<li class="nav-item">
-				<a href="g_faq.html" class="nav-link">माहिती अधिकार</a>
+				<a href="faq.html" class="nav-link">माहिती अधिकार</a>
 			</li>
 			<li class="nav-item">
 				<a href="gallary.html" class="nav-link">फोटो विभाग</a>
 			</li>
 			<li class="nav-item ">
-				<a class="nav-link" href="help.html">मदत</a>
+				<a href="help.html" class="nav-link">मदत</a>
 			</li>
 			<li class="nav-item">
 				<a href="subsidy_calculator.html" class="nav-link">सबसिडी कॅल्क्युलेटर</a>
@@ -206,6 +206,26 @@
 	<script src="js/jquery-3.5.0.min.js"></script>
 	<script src="owlcarousel/owl.carousel.min.js"></script>
 	<script src="js/src.js"></script>
+	<script>
+		$("#main_car").owlCarousel({
+			loop: true,
+			margin: 10,
+			rewind: true,
+			autoplay: true,
+			// nav: true,
+			responsive: {
+				0: {
+					items: 1,
+				},
+				600: {
+					items: 3,
+				},
+				1000: {
+					items: 3,
+				},
+			},
+		});
+	</script>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0">
 	</script>
 

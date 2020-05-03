@@ -190,6 +190,7 @@
 /* -------after login-------- */
 .pmay_alog_ul {
   list-style: none;
+  padding-left: 0;
 }
 
 .pmay_alog_ul > li > a {
