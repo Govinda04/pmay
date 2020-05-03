@@ -367,6 +367,15 @@
   color: red;
 }
 
+/* -------Subsidy calculator------------- */
+
+.ui-slider-range {
+  background: hsl(25, 88%, 50%) !important;
+}
+.ui-slider-handle {
+  background-color: hsl(25, 98%, 80%) !important;
+}
+
 /* -------footer------------- */
 
 footer {
